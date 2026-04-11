@@ -1,0 +1,29 @@
+title: Loopi
+description: "Unlocking logic and coding for kids, through play—with or without a screen."
+baseurl: "/loopi" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+theme: minima
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: "en/resources"
+    values:
+      layout: "resource"
+  - scope:
+      path: "fr/resources"
+    values:
+      layout: "resource"
+
+# Language settings
+languages: ["en", "fr"]
+default_lang: "en"

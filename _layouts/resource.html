@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="resource-meta">
+      {% if page.lang == "en" %}
+        <span class="status">Status: {{ page.status }}</span> | 
+        <span class="category">Category: {{ page.category }}</span>
+      {% else %}
+        <span class="status">Statut : {{ page.status }}</span> | 
+        <span class="category">Catégorie : {{ page.category }}</span>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+
+    {% if page.website %}
+      {% if page.lang == "en" %}
+        <p><strong>Website:</strong> <a href="{{ page.website }}">{{ page.website }}</a></p>
+      {% else %}
+        <p><strong>Site web :</strong> <a href="{{ page.website }}">{{ page.website }}</a></p>
+      {% endif %}
+    {% endif %}
+
+    {% if page.other_resources %}
+      {% if page.lang == "en" %}
+        <h3>Other Resources</h3>
+      {% else %}
+        <h3>Autres ressources</h3>
+      {% endif %}
+    <ul>
+      {% for item in page.other_resources %}
+      <li><a href="{{ item.url }}">{{ item.name }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    <div class="lang-switch">
+      {% if page.lang == "en" %}
+        {% assign target_path = "/fr/resources/" | append: page.slug | append: ".html" %}
+        <a href="{{ target_path | relative_url }}">Voir en Français</a>
+      {% else %}
+        {% assign target_path = "/en/resources/" | append: page.slug | append: ".html" %}
+        <a href="{{ target_path | relative_url }}">View in English</a>
+      {% endif %}
+    </div>
+  </div>
+</article>

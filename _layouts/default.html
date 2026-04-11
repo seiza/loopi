@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.default_lang }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    {% feed_meta %}
+</head>
+<body>
+    <header class="site-header">
+        <div class="wrapper">
+            <a class="site-title" rel="author" href="{{ '/' | relative_url }}">Loopi</a>
+            <nav class="site-nav">
+                <div class="trigger">
+                    <a class="page-link" href="{{ '/en/' | relative_url }}">EN</a>
+                    <a class="page-link" href="{{ '/fr/' | relative_url }}">FR</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+            {{ content }}
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="wrapper">
+            <div class="footer-col-wrapper">
+                <div class="footer-col">
+                    <p>{{ site.description }}</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
