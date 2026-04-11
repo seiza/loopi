@@ -5,15 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
+    <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/loop-o.svg' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
     {% feed_meta %}
 </head>
 <body>
     <header class="site-header">
         <div class="wrapper">
-            <a class="site-title" rel="author" href="{{ '/' | relative_url }}">Loopi</a>
+            <a class="site-title" rel="author" href="{{ '/' | relative_url }}">
+                <img src="{{ '/assets/images/loopy-bot-waving.svg' | relative_url }}" alt="Loopy Bot" class="loopy-logo">
+                L<img src="{{ '/assets/images/loop-o.svg' | relative_url }}" class="o-logo" alt="o"><img src="{{ '/assets/images/loop-o.svg' | relative_url }}" class="o-logo" alt="o">pi
+            </a>
             <nav class="site-nav">
                 <div class="trigger">
+                    {% if page.lang == "fr" %}
+                    <a class="page-link" href="{{ '/fr/about.html' | relative_url }}">À propos</a>
+                    {% else %}
+                    <a class="page-link" href="{{ '/en/about.html' | relative_url }}">About</a>
+                    {% endif %}
                     <a class="page-link" href="{{ '/en/' | relative_url }}">EN</a>
                     <a class="page-link" href="{{ '/fr/' | relative_url }}">FR</a>
                 </div>
@@ -32,6 +42,7 @@
             <div class="footer-col-wrapper">
                 <div class="footer-col">
                     <p>{{ site.description }}</p>
+                    <p>&copy; 2026 <a href="https://github.com/seiza">seiza</a></p>
                 </div>
             </div>
         </div>
