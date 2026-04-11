@@ -11,6 +11,15 @@ lang: en
   <a href="{{ site.baseurl }}/fr/">Voir en Français</a>
 </div>
 
+<section>
+  <h3>The 3 golden rules for parents</h3>
+  <ol>
+    <li><b>The right to make mistakes</b>: In coding, we don't make mistakes, we "bug". It's a great opportunity to look for the solution together ("debugging").</li>
+    <li><b>The creative aspect</b>: Don't ask them to "code for the sake of coding". Ask them: "What story or game would you like to invent?"</li>
+    <li><b>Encourage collaboration</b>: With twins, it's tempting to compare. Instead, encourage them to do "Pair Programming": one types/manipulates, the other checks the logic, then swap roles every 15 minutes.</li>
+  </ol>
+</section>
+
 <div class="category-section">
   <h2>Categories</h2>
 
