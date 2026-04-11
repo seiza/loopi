@@ -1,7 +1,8 @@
 ---
 title: The Human Robot
 category: Débranché (sans ordinateur)
-status: Active
+status: to review
+age: 5+
 slug: human-robot
 lang: en
 ---

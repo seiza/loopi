@@ -1,7 +1,8 @@
 ---
 title: Scratch Jr
 category: Numérique (avec écran)
-status: Actif
+status: to review
+age: 5-7 ans
 website: https://www.scratchjr.org/
 slug: scratch-jr
 lang: fr

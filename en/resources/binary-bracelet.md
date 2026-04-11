@@ -1,7 +1,8 @@
 ---
 title: Binary Bracelets
 category: Débranché (sans ordinateur)
-status: Active
+status: to play
+age: 6+
 slug: binary-bracelet
 lang: en
 ---

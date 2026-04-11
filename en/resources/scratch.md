@@ -1,7 +1,8 @@
 ---
 title: Scratch
 category: Numérique (avec écran)
-status: Essential
+status: to review
+age: 8+
 website: https://scratch.mit.edu/
 slug: scratch
 lang: en

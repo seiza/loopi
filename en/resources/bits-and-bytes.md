@@ -1,7 +1,8 @@
 ---
 title: Bits & Bytes
 category: Jeux de société
-status: Card Game
+status: to review
+age: 7+
 website: https://www.bitsandbytes.cards/
 slug: bits-and-bytes
 lang: en

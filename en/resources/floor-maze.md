@@ -1,7 +1,8 @@
 ---
 title: The Floor Maze
 category: Débranché (sans ordinateur)
-status: Active
+status: to review
+age: 4+
 slug: floor-maze
 lang: en
 ---

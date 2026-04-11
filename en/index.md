@@ -39,7 +39,12 @@ lang: en
         {% for resource in resources %}
           <div class="resource-card">
             <h4><a href="{{ resource.url | relative_url }}">{{ resource.title }}</a></h4>
-            <p><small class="status-tag">{{ resource.status }}</small></p>
+            <p>
+              <small class="status-tag">{{ resource.status }}</small>
+              {% if resource.age %}
+                <small class="status-tag">{{ resource.age }}</small>
+              {% endif %}
+            </p>
           </div>
         {% endfor %}
       </div>

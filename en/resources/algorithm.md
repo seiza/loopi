@@ -1,7 +1,8 @@
 ---
 title: Algorithm
 category: Dictionnaire (écosystème)
-status: Essential
+status: to review
+age: 6+
 website: https://en.wikipedia.org/wiki/Algorithm
 slug: algorithm
 lang: en

@@ -1,7 +1,8 @@
 ---
 title: Le Labyrinthe au sol
 category: Débranché (sans ordinateur)
-status: Actif
+status: to review
+age: 4 ans +
 slug: floor-maze
 lang: fr
 ---

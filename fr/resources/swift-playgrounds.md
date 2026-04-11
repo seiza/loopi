@@ -1,7 +1,8 @@
 ---
 title: Swift Playgrounds
 category: Numérique (avec écran)
-status: Immersif
+status: to review
+age: 10 ans +
 website: https://www.apple.com/swift/playgrounds/
 slug: swift-playgrounds
 lang: fr

@@ -1,7 +1,8 @@
 ---
 title: Minecraft Education
 category: Numérique (avec écran)
-status: Educatif
+status: to review
+age: 7 ans +
 website: https://education.minecraft.net/
 slug: minecraft-education
 lang: fr

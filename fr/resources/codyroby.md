@@ -1,7 +1,8 @@
 ---
 title: CodyRoby
 category: Débranché (sans ordinateur)
-status: Actif
+status: to review
+age: 5 ans +
 website: https://codemooc.org/codyroby/
 slug: codyroby
 lang: fr

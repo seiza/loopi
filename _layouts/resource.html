@@ -13,6 +13,15 @@ layout: default
           <strong>Statut :</strong> {{ page.status }}
         {% endif %}
       </div>
+      {% if page.age %}
+      <div class="meta-item">
+        {% if page.lang == "en" %}
+          <strong>Age:</strong> {{ page.age }}
+        {% else %}
+          <strong>Âge :</strong> {{ page.age }}
+        {% endif %}
+      </div>
+      {% endif %}
       <div class="meta-item">
         {% case page.category %}
           {% when "Débranché (sans ordinateur)" %}{% assign slug = "unplugged" %}

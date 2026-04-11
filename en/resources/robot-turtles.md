@@ -1,7 +1,8 @@
 ---
 title: Robot Turtles
 category: Jeux de société
-status: Popular
+status: to review
+age: 4-8
 website: https://www.thinkfun.com/products/robot-turtles/
 slug: robot-turtles
 lang: en

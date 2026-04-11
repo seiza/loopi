@@ -1,7 +1,8 @@
 ---
 title: Code Master
 category: Jeux de société
-status: Educational
+status: to review
+age: 8+
 website: https://www.thinkfun.com/products/code-master/
 slug: code-master
 lang: en

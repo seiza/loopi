@@ -1,7 +1,8 @@
 ---
 title: Le Robot Humain
 category: Débranché (sans ordinateur)
-status: Actif
+status: to review
+age: 5 ans +
 slug: human-robot
 lang: fr
 ---
