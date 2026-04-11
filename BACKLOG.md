@@ -14,7 +14,7 @@ This file contains candidates for future resource pages on Loopi.
 
 ## Jeux de société
 - [ ] **Turing Tumble**: A mechanical computer powered by marbles to solve logic puzzles.
-- [ ] **Code Master**: A programming logic game that uses an avatar to travel through a map to reach a portal.
+- [x] **Code Master**: A programming logic game that uses an avatar to travel through a map to reach a portal.
 - [ ] **On the Dot**: A pattern-matching game that challenges spatial logic.
 
 ## Dictionnaire (écosystème)

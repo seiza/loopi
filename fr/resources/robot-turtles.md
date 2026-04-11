@@ -11,3 +11,7 @@ other_resources:
 ---
 
 Robot Turtles est un jeu de société conçu pour les enfants dès l'âge de 4 ans, leur enseignant les concepts de base de la programmation.
+
+Inspiré du langage Logo, on utilise des cartes pour diriger une tortue sur un plateau pour atteindre un joyau.
+
+**Âge idéal :** 4 - 8 ans

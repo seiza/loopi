@@ -11,3 +11,7 @@ other_resources:
 ---
 
 Robot Turtles is a board game designed for children as young as 4, teaching them the basic concepts of programming through cards and physical movement.
+
+Inspired by the Logo programming language, children use command cards to move their turtle to reach a jewel.
+
+**Ideal age:** 4 - 8 years old
