@@ -102,22 +102,23 @@ h1, h2, h3, h4, .site-title {
 }
 
 .lang-switch {
-  background: #eef2f7;
-  padding: 15px 25px;
+  background: var(--primary-color);
+  padding: 10px 20px;
   border-radius: 50px;
-  margin: 20px 0;
+  margin: 10px 5px;
   display: inline-block;
-  border: 2px solid var(--primary-color);
   font-weight: bold;
   text-decoration: none;
   transition: transform 0.2s;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 
   &:hover {
     transform: scale(1.05);
+    background: var(--secondary-color);
   }
 
   a {
-    color: var(--primary-color);
+    color: white !important;
     text-decoration: none;
   }
 }
@@ -148,6 +149,14 @@ h1, h2, h3, h4, .site-title {
     display: inline-block;
     border-radius: 10px;
     margin-bottom: 20px;
+
+    a {
+      color: white !important;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
 

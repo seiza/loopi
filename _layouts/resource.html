@@ -14,10 +14,16 @@ layout: default
         {% endif %}
       </div>
       <div class="meta-item">
+        {% case page.category %}
+          {% when "Débranché (sans ordinateur)" %}{% assign slug = "unplugged" %}
+          {% when "Numérique (avec écran)" %}{% assign slug = "digital" %}
+          {% when "Jeux de société" %}{% assign slug = "board-games" %}
+          {% when "Dictionnaire (écosystème)" %}{% assign slug = "dictionary" %}
+        {% endcase %}
         {% if page.lang == "en" %}
-          <strong>Category:</strong> {{ page.category }}
+          <strong>Category:</strong> <a href="{{ '/en/categories/' | append: slug | append: '.html' | relative_url }}">{{ page.category }}</a>
         {% else %}
-          <strong>Catégorie :</strong> {{ page.category }}
+          <strong>Catégorie :</strong> <a href="{{ '/fr/categories/' | append: slug | append: '.html' | relative_url }}">{{ page.category }}</a>
         {% endif %}
       </div>
     </div>

@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<header class="post-header">
+  <h1 class="post-title">{{ page.title }}</h1>
+  <p class="lead">
+    {% if page.lang == "en" %}
+      Resources for category: {{ page.category_name }}
+    {% else %}
+      Ressources pour la catégorie : {{ page.category_name }}
+    {% endif %}
+  </p>
+</header>
+
+<div class="resources-grid">
+  {% assign resources = site.html_pages | where: "lang", page.lang | where: "category", page.category_name %}
+  {% for resource in resources %}
+    <div class="resource-card">
+      <h4><a href="{{ resource.url | relative_url }}">{{ resource.title }}</a></h4>
+      <p><small class="status-tag">{{ resource.status }}</small></p>
+      {% if resource.description %}
+        <p>{{ resource.description | strip_html | truncatewords: 20 }}</p>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
+
+<div class="lang-switch">
+  {% if page.lang == "en" %}
+    {% assign target_url = "/fr/categories/" | append: page.slug | append: ".html" %}
+    <a href="{{ target_url | relative_url }}">Voir en Français</a>
+  {% else %}
+    {% assign target_url = "/en/categories/" | append: page.slug | append: ".html" %}
+    <a href="{{ target_url | relative_url }}">View in English</a>
+  {% endif %}
+</div>
+
+<p><a href="{{ '/' | append: page.lang | append: '/' | relative_url }}">&larr; 
+  {% if page.lang == "en" %}
+    Back to Home
+  {% else %}
+    Retour à l'accueil
+  {% endif %}
+</a></p>

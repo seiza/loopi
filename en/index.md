@@ -26,8 +26,14 @@ lang: en
   {% assign categories = "Débranché (sans ordinateur),Numérique (avec écran),Jeux de société,Dictionnaire (écosystème)" | split: "," %}
 
   {% for cat in categories %}
+    {% case cat %}
+      {% when "Débranché (sans ordinateur)" %}{% assign slug = "unplugged" %}
+      {% when "Numérique (avec écran)" %}{% assign slug = "digital" %}
+      {% when "Jeux de société" %}{% assign slug = "board-games" %}
+      {% when "Dictionnaire (écosystème)" %}{% assign slug = "dictionary" %}
+    {% endcase %}
     <section>
-      <h3>{{ cat }}</h3>
+      <h3><a href="{{ site.baseurl }}/en/categories/{{ slug }}.html">{{ cat }}</a></h3>
       <div class="resources-grid">
         {% assign resources = site.html_pages | where: "lang", "en" | where: "category", cat %}
         {% for resource in resources %}
@@ -37,6 +43,7 @@ lang: en
           </div>
         {% endfor %}
       </div>
+      <p><a href="{{ site.baseurl }}/en/categories/{{ slug }}.html">View all resources in {{ cat }} &rarr;</a></p>
     </section>
   {% endfor %}
 </div>
