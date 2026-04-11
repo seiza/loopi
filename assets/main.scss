@@ -205,3 +205,46 @@ a {
   text-align: center;
   margin: 30px 0;
 }
+
+.testimonial-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.testimonial-bubble {
+  background: #fff;
+  border: 3px solid var(--secondary-color);
+  border-radius: 30px;
+  padding: 20px 30px;
+  display: inline-block;
+  position: relative;
+  font-style: italic;
+  font-size: 1.1em;
+  color: #555;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 40px;
+    border-width: 20px 20px 0 0;
+    border-style: solid;
+    border-color: var(--secondary-color) transparent;
+    display: block;
+    width: 0;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: -13px;
+    left: 43px;
+    border-width: 15px 15px 0 0;
+    border-style: solid;
+    border-color: #fff transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+  }
+}
