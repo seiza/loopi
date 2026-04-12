@@ -18,6 +18,24 @@ This file contains candidates for future resource pages on Loopi.
 - [x] **Lightbot**: An educational game that uses logic puzzles fundamental to coding, like loops and procedures.
 - [x] **Game Builder Garage (L'Atelier du Jeu Vidéo)**: A Nintendo Switch game that teaches programming logic by building games with "Nodons".
 - [x] **Dreams**: A PlayStation game developed by Media Molecule that allows players to create and share their own games, music, and art.
+- [x] **Human Resource Machine**: A puzzle game where you use a simple assembly-like language to automate a corporate office worker.
+- [x] **7 Billion Humans**: The sequel to Human Resource Machine, adding parallelism and synchronization concepts.
+- [x] **Shenzhen I/O**: A programming puzzle game where you build circuits and write assembly code for various electronic components.
+- [x] **Bitburner**: A cyberpunk-themed Linux-like hacking simulation game where you use JavaScript to automate your hacking.
+- [x] **CodinGame**: A website to learn coding through games and challenges.
+- [x] **NandGame**: Build a computer from scratch, starting from the basic logic gates.
+- [x] **JOY OF PROGRAMMING**: A software engineering simulator where you use real Python code to automate machines and robots.
+- [x] **Colobot**: A space colony strategy game that uses a C++/Java-like language to program robots.
+- [x] **CodeCombat**: An online RPG adventure where you learn coding by controlling a hero.
+- [x] **Else Heart.Break()**: A narrative RPG where you hack the world using a custom programming language.
+- [x] **Last Call BBS**: A collection of retro-styled mini-games including factory and circuit design puzzles.
+- [x] **TIS-100**: An assembly-language programming puzzle game where you repair a corrupted computer system.
+- [x] **MHRD**: A hardware design game where you build complex components from simple logic gates.
+- [x] **Elevator Saga**: An elevator optimization game programmed in JavaScript.
+- [x] **Screeps**: An MMO sandbox game for programmers where you code a persistent colony in JavaScript.
+- [x] **The Farmer Was Replaced**: A farming automation game using a Python-like scripting language.
+- [x] **WarriorJS**: A tower-climbing game where you program your warrior's AI in JavaScript.
+- [x] **Untrusted**: A JavaScript adventure game where you modify the source code to solve levels.
 
 ## Jeux de société
 - [x] **Turing Tumble**: A mechanical computer powered by marbles to solve logic puzzles.
