@@ -6,6 +6,8 @@ age: 4-10 ans
 website: https://www.helloruby.com/fr
 slug: hello-ruby
 lang: fr
+price: ~15€
+image: /assets/images/resources/hello-ruby.png
 ---
 
 **Hello Ruby** est une série de livres et un site web qui rendent le code et la logique accessibles à travers des histoires et des activités.

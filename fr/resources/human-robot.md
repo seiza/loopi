@@ -5,6 +5,8 @@ status: to review
 age: 5 ans +
 slug: human-robot
 lang: fr
+price: Gratuit
+image: /assets/images/loopy-bot.svg
 ---
 
 Le code, c'est avant tout une façon de penser. Ces jeux permettent de comprendre les concepts fondamentaux sans s'abîmer les yeux.

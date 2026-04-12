@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Basic meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Page title/descriptions -->
+    <title>Page Not Found</title>
+    <meta name="description" content="The page you are looking for is not available.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Page Not Found">
+    <meta property="og:description" content="The page you are looking for is not available.">
+    <meta property="og:site_name" content="Upper Story - Endless Curiosity">
+    <meta property="fb:admins" content="10212589640286261">
+    <meta property="og:image" content="/assets/upper-story-og-banner.jpg">
+    <meta property="og:image:width" content="2000">
+    <meta property="og:image:height" content="1000">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="The page you are looking for is not available.">
+    <meta name="twitter:title" content="Page Not Found">
+    <meta name="twitter:site" content="@turingtumble">
+    <meta name="twitter:image" content="/assets/upper-story-og-banner.jpg">
+    <meta name="twitter:creator" content="@turingtumble">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="24x24" href="/favicon-24x24.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/fresco.css"/>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/js/fresco.min.js"></script>
+    <script type="module" src="/js/upperstory.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2.2.1/src/js.cookie.min.js"></script>
+
+    <script type="text/javascript">
+        const lang = 'en';
+    </script>
+
+    <link rel="stylesheet" href="/css/upperstory-main.css"/>
+
+    <!-- Images that need to be preloaded -->
+    <link rel="preload" href="/assets/upper-story-logo-hover-brown.svg" as="image"/>
+
+    <script type="text/javascript">
+    // Temporary
+    //Cookies.set('allowCookies', true, { domain: '.upperstory.com', overwrite: true, expires: new Date(Date.now() + 1000 * 60 * 60 * 24 * 365) });
+
+    // Removes the cookie
+    //Cookies.set('allowCookies', true, { domain: '.upperstory.com', overwrite: true, expires: new Date(Date.now()) });
+
+    if (Cookies.get('allowCookies') == "true") {
+        // Load the cookies
+        let scriptEle = document.createElement("script");
+
+        scriptEle.setAttribute("src", "/js/pixels.js");
+        scriptEle.setAttribute("type", "text/javascript");
+        scriptEle.setAttribute("async", true);
+
+        document.head.appendChild(scriptEle);
+    }
+</script>
+</head>
+<body>
+<!-- Upper Story nav bar-->
+
+<nav
+  id="upperstory-nav"
+  class="navbar navbar-expand-md navbar-light navbar-x sticky-top"
+>
+  <div class="navbar-bottom-line"></div>
+
+  <div class="navbar-brand">
+    <div class="navbar-behind-logo"></div>
+    <div class="navbar-gray-section"></div>
+
+    <div class="nav-upper-story-logo">
+      <a href="/en">
+        <div class="nav-upper-story-img">
+          <img
+            style="
+              position: relative;
+              visibility: hidden;
+              display: inline-block;
+              width: 94px;
+            "
+            alt="Upper Story logo"
+            src="/assets/upper-story-logo-white.svg"
+          />
+        </div>
+      </a>
+    </div>
+    <div class="nav-logo-product-arrow"></div>
+    <div class="nav-logo-product">
+      <a href="/en">
+        <div class="nav-home-item">
+          <p class="tr" key="navhome">HOME</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="nav-logo-spacer"></div>
+  </div>
+
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a
+          class="nav-link tr"
+          key="nav1"
+          id="us-store-button"
+          href="https://store.upperstory.com/"
+          >Store</a
+        >
+      </li>
+      <li class="nav-item dropdown show">
+        <a
+          class="nav-link dropdown-toggle tr"
+          role="button"
+          href="#"
+          id="navbarDropdownMenuLink2"
+          data-bs-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+          key="navprod"
+        >
+          PRODUCTS
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink2">
+          <a class="dropdown-item" href="/en/bridgeorbust/">BRIDGE OR BUST</a>
+          <a class="dropdown-item" href="/en/spintronics/">SPINTRONICS</a>
+          <a class="dropdown-item" href="/en/turingtumble/">TURING TUMBLE</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link tr false"
+          key="navabout"
+          href="/en/about/"
+        >
+          About</a
+        >
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<!--<div class="cookieNotice" style="display: none;">
+    <div class="notice tr" key="cline">By visiting our website, you accept use of our cookies and agree to our privacy policy.</div>
+    <div class="notice notice-button">OK</div>
+</div>-->
+
+<!-- Initial privacy notice -->
+<div class="modal" tabindex="-1" aria-labelledby="privacyModal" aria-hidden="true" id="privacyDialog">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content" style="border-radius: 0px; border-width: 3px; border-color: #414042; overflow: hidden;">
+            <!--<div class="modal-header">
+                <h1 class="modal-title fs-5" id="privacyModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>-->
+            <div class="modal-body">
+                <div style="position: relative; width: 100%; height: 100%;">
+                    <div style="max-width: 70px; position: absolute; right: 0px; top: 0px;">
+                        <img src="/assets/upper-story-logo-blue.svg" style="width: 100%"/>
+                    </div>
+                    <div style="width: 180px; position: absolute; left: -90px; bottom: -20px; opacity: 35%; transform: translateX(50%); transform: translateY(50%); overflow: hidden;">
+                        <img src="/assets/gear.svg" style="width: 100%; rotate: 30deg;"/>
+                    </div>
+                    <div class="container-fluid" style="position: relative;">
+                        <div class="row">
+                            <div class="col-12 privacyModalBody" style="margin-top: 30px;">
+                                <p>
+                                    Hello!
+                                </p>
+                                <p>
+                                    Welcome to Upper Story. To improve our website and advertise efficiently, we would like to share information about your visit with our analytics and advertising partners. It helps to keep prices down and reach more curious people like you. By clicking “I am OK with that,” you agree to share information about your visit.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 mt-3 text-md-end text-center">
+                                <input type="submit" value="Detailed settings" name="privacy_details" class="privacyButtonNegative btn mb-2" id="privacyDetailedSettings">
+                                <input type="submit" value="I am OK with that" name="privacy_accept" class="privacyButtonPositive button btn mb-2" id="privacyAcceptAll">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <!--<div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>-->
+        </div>
+    </div>
+</div>
+
+<!-- Detailed privacy preferences -->
+<div class="modal" tabindex="-1" aria-labelledby="privacyDetailedSettingsModal" aria-hidden="true" id="privacyDetailedSettingsDialog">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content" style="border-radius: 0px; border-width: 3px; border-color: #414042; overflow: hidden;">
+            <!--<div class="modal-header">
+                <h1 class="modal-title fs-5" id="privacyModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>-->
+            <div class="modal-body" style="padding: 1.5rem;">
+                <div style="position: relative; width: 100%; height: 100%;">
+
+                    <div style="width: 180px; position: absolute; left: -90px; bottom: -20px; opacity: 35%; transform: translateX(50%); transform: translateY(50%); overflow: hidden;">
+                        <img src="/assets/gear.svg" style="width: 100%; rotate: 30deg;"/>
+                    </div>
+                    <div class="container-fluid" style="position: relative;">
+                        <div class="row justify-content-evenly" style="border-bottom: solid; border-width: 1px; border-color: #e6e7e8;">
+                            <div class="col-auto">
+                                <img src="/assets/upper-story-logo-blue.svg" style="width: 70px"/>
+                            </div>
+                            <div class="col privacyModalBody privacyModalTitle" >
+                                <p style="margin-bottom: 0px;">
+                                    Privacy Preferences
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-12 privacyModalBody">
+                                <p>
+                                    Cookies are short bits of information that are stored and retrieved from your browser. For example, if you choose your preferred language, a cookie would store it in your browser so you don’t have to choose it every time you visit a page of the same website.
+                                </p>
+                                <p>
+                                    The cookies we create are temporary. Besides the basic ones that let us store your site preferences, some let us analyze site behaviour and some let us determine the impact of our advertising. That is, which types of ads are working and which types are not.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="accordion accordion-flush privacyModalBody reverse-accordion" id="accordionPrivacyDetailedSettings">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="basicFunctionCookies" style="position: relative;">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#basicFunctionCollapse" aria-expanded="false" aria-controls="flush-collapseOne" style="z-index: 1;">
+                                            <p style="margin-bottom: 0px;">Basic function cookies (required)</p><div style="width: 65px;"></div> <!-- Div is to make space for slider -->
+                                        </button>
+                                        <div class="form-check form-switch" style="display: inline-block; position: absolute; right: 0px; top: 3px; z-index:2;">
+                                            <input class="usCheckSlider form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked disabled>
+                                        </div>
+                                    </h2>
+                                    <div id="basicFunctionCollapse" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionPrivacyDetailedSettings">
+                                        <div class="accordion-body">
+                                            <p>
+                                                These cookies are essential for proper site function. They include things like the language you prefer, the country your IP address is from (so you can view the correct version of the page), and whatever cookie preferences you choose here.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="analyticsMarketingCookies" style="position: relative;">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#analyticsMarketingCollapse" aria-expanded="false" aria-controls="flush-collapseTwo" style="z-index: 1;">
+                                            <p style="margin-bottom: 0px;">Analytics &amp; marketing cookies</p><div style="width: 65px;"></div>
+                                        </button>
+                                        <div class="form-check form-switch" style="display: inline-block; position: absolute; right: 0px; top: 3px; z-index:2;">
+                                            <input class="usCheckSlider form-check-input" type="checkbox" role="switch" id="marketingCookiesSwitch" checked>
+                                        </div>
+                                    </h2>
+                                    <div id="analyticsMarketingCollapse" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionPrivacyDetailedSettings">
+                                        <div class="accordion-body">
+                                            <p>
+                                                These cookies help us understand behavior on our website and are critical to help us see which of our advertising and marketing efforts are working.
+                                            </p>
+                                            <p>
+                                                We advertise on a variety of platforms including social media and internet search providers. These sorts of cookies and the information we share lets platforms match you with your social media or internet search account (we can&#39;t see that information, only the platform can). That&#39;s helpful because it allows the platform to indicate whether our ads resulted in purchases or not. Then we can optimize the way we serve ads so that we aren&#39;t wasting money on ineffective ads. The platform also isn&#39;t driving you crazy with completely irrelevant ads. This doesn&#39;t make you get any more ads, it just makes the ads more relevant to you.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 mt-3 text-md-end text-center">
+                                <input type="submit" value="Reject All" name="privacy_details" class="privacyButtonNegative btn mb-2" id="privacyRejectAll">
+                                <input type="submit" value="Confirm My Choices" name="privacy_accept" class="privacyButtonPositive button btn mb-2" id="privacyConfirmChoices">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <!--<div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>-->
+        </div>
+    </div>
+</div>
+
+<div class="cookieNotice" style="display: none;">
+    <div class="notice tr" key="cline">By visiting our website, you accept our use of cookies and agree to our <a href="/en/legal/privacy-policy.html">privacy policy</a>.</div>
+    <div class="notice notice-button">OK</div>
+</div>
+
+<div class="container-fluid page-content notebook-background" style="overflow: hidden;">
+    <div class="container" style="max-width: 1000px; overflow: visible;">
+        <div class="row" style="position: relative; overflow: visible;"> <!-- position = relative so that absolute positioning later is relative to this row -->
+            <div style="position: absolute; display: block; left: 72%; top: -20%; pointer-events: none;"><img src="/assets/big-gear.svg" style="width: 40%;"></div>
+            <div style="position: absolute; display: block; left: 20%; top: 55%; pointer-events: none;"><img src="/assets/patent-diagram.svg" style="width: 60%;"></div>
+            <div style="position: absolute; display: block; left: 20%; top: -10%; pointer-events: none;"><img src="/assets/chemical-structure.svg" style="width: 30%;"></div>
+            <div class="col-3 col-md-4 p-0" style="overflow-x: visible;">
+                <img class="junction-image" src="/assets/tarnished-junction.png"/>
+            </div>
+            <div class="col-9 col-md-8 p-0">
+                <h1 class="page-text">
+                    <p>404 Page Not Found</p>
+                    <p>Sorry! This page doesn't exist.</p>
+                    <p class="error-page-subtext">Either it was a bad link that brought you here or perhaps you entered an incorrect web address? If you need any help, feel free to contact us at <a href="/cdn-cgi/l/email-protection#b6ded3dadad9f6c3c6c6d3c4c5c2d9c4cf98d5d9db"><span class="__cf_email__" data-cfemail="2149444d4d4e61545151445352554e53580f424e4c">[email&#160;protected]</span></a>!</p>
+                </h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer-top-border"></div>
+
+    <footer class="container-fluid site-footer-container">
+        <div class="row">
+            <!-- Logo, Contact Info, Legal Links and Copyright Container -->
+            <div class="col-lg-3 col-md-4 col-sm-12 mb-5 footer-col">
+                <div>
+                    <a href="/en"><img src="/assets/upper-story-logo-white.svg" alt="Upper Story logo"></a>
+                </div>
+                <a href="/cdn-cgi/l/email-protection#0f676a6363604f7a7f7f6a7d7c7b607d76216c6062"><span class="__cf_email__" data-cfemail="452d2029292a05303535203736312a373c6b262a28">[email&#160;protected]</span></a>
+                <p>400 Village Center Dr, Suite 500<br>St Paul, MN 55127  USA</p>
+                <ul class="footer-inline">
+                    <li><a href="/en/legal/impressum.html" class="tr" key="fl1">Impressum</a>&#8226;</li>
+                    <li><a href="/en/legal/privacy-policy.html" class="tr" key="fl2">Privacy</a>&#8226;</li>
+                    <li><a href="/en/legal/terms-of-service.html" class="tr" key="fl3">Terms</a></li>
+                </ul>
+                <div class="site-footer__copyright">
+                    <span>
+                      &copy; <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear())</script> Upper Story LLC
+                    </span>
+                </div>
+            </div>
+    
+            <div class="col-lg-9 col-md-8 col-sm-12">
+                <div class="row">
+                    <!-- Quick Links Container  -->
+                    <div class="col-md-12 col-lg-4 mb-5 pb-0 footer-col">
+                        <div class="footer-heading tr" key="ft1">Quick Links</div> <!-- Quick Links -->
+                        <div>
+                            <ul class="footer-list">
+                                <li>
+                                    <a href="https://store.upperstory.com/pages/help-center" id="ftrHelp" class="tr" key="fql1">Help Center</a>
+                                </li>
+                                <li>
+                                    <a href="https://store.upperstory.com/pages/returns" id="ftrReturn" class="tr" key="fql">Return Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#" id="ftrPrivacyPreferences" class="tr" key="fql">Privacy Preferences</a>
+                                </li>
+                                <!--<li>
+                                    <a href="//turingtumble/edu/blog/index.html" target="_blank" id="ftrBlog" class="tr" key="edres33b">EDU Blog</a>
+                                </li>-->
+                                <!--<li>
+                                    <a href="https://youtu.be/VSVqypPB8S8" target="_blank" id="ftrVid" class="tr" key="fql3">Getting Started</a>
+                                </li>-->
+                                <li>
+                                    <a href="/en/about/" id="ftrAbout" class="tr" key="navabout">About</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <!-- Language and Social Icons Container -->
+                    <div class="col-md-12 col-lg-4 mb-5 pb-0 footer-col">
+                        <div class="footer-heading tr" key="ft2">Language</div> <!-- Language -->
+                        <div class="mb-5" id="translations">
+                            <ul class="footer-inline" style="flex-wrap: wrap; margin-bottom: 0px;">
+                                
+                                
+                                <li><button class="btn-lang lang active" id="en">EN</button></li>
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                            </ul>
+                        </div>
+
+                        <div class="footer-heading tr" key="ft3">Follow Us</div>
+                        <div>
+                            <ul class="footer-inline footer-social">
+
+                                <li><a href="https://www.instagram.com/upperstoryco/" target="_blank"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-instagram" viewBox="0 0 32 32"><path fill="#006892" d="M16 3.094c4.206 0 4.7.019 6.363.094 1.538.069 2.369.325 2.925.544.738.287 1.262.625 1.813 1.175s.894 1.075 1.175 1.813c.212.556.475 1.387.544 2.925.075 1.662.094 2.156.094 6.363s-.019 4.7-.094 6.363c-.069 1.538-.325 2.369-.544 2.925-.288.738-.625 1.262-1.175 1.813s-1.075.894-1.813 1.175c-.556.212-1.387.475-2.925.544-1.663.075-2.156.094-6.363.094s-4.7-.019-6.363-.094c-1.537-.069-2.369-.325-2.925-.544-.737-.288-1.263-.625-1.813-1.175s-.894-1.075-1.175-1.813c-.212-.556-.475-1.387-.544-2.925-.075-1.663-.094-2.156-.094-6.363s.019-4.7.094-6.363c.069-1.537.325-2.369.544-2.925.287-.737.625-1.263 1.175-1.813s1.075-.894 1.813-1.175c.556-.212 1.388-.475 2.925-.544 1.662-.081 2.156-.094 6.363-.094zm0-2.838c-4.275 0-4.813.019-6.494.094-1.675.075-2.819.344-3.819.731-1.037.4-1.913.944-2.788 1.819S1.486 4.656 1.08 5.688c-.387 1-.656 2.144-.731 3.825-.075 1.675-.094 2.213-.094 6.488s.019 4.813.094 6.494c.075 1.675.344 2.819.731 3.825.4 1.038.944 1.913 1.819 2.788s1.756 1.413 2.788 1.819c1 .387 2.144.656 3.825.731s2.213.094 6.494.094 4.813-.019 6.494-.094c1.675-.075 2.819-.344 3.825-.731 1.038-.4 1.913-.944 2.788-1.819s1.413-1.756 1.819-2.788c.387-1 .656-2.144.731-3.825s.094-2.212.094-6.494-.019-4.813-.094-6.494c-.075-1.675-.344-2.819-.731-3.825-.4-1.038-.944-1.913-1.819-2.788s-1.756-1.413-2.788-1.819c-1-.387-2.144-.656-3.825-.731C20.812.275 20.275.256 16 .256z"></path><path fill="#006892" d="M16 7.912a8.088 8.088 0 0 0 0 16.175c4.463 0 8.087-3.625 8.087-8.088s-3.625-8.088-8.088-8.088zm0 13.338a5.25 5.25 0 1 1 0-10.5 5.25 5.25 0 1 1 0 10.5zM26.294 7.594a1.887 1.887 0 1 1-3.774.002 1.887 1.887 0 0 1 3.774-.003z"></path></svg></a></li>
+
+                                <li><a href="https://www.facebook.com/EndlessCuriosity" target="_blank"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-facebook" viewBox="0 0 32 32"><path fill="#006892" d="M18.56 31.36V17.28h4.48l.64-5.12h-5.12v-3.2c0-1.28.64-2.56 2.56-2.56h2.56V1.28H19.2c-3.84 0-7.04 2.56-7.04 7.04v3.84H7.68v5.12h4.48v14.08h6.4z"></path></svg></a></li>
+
+                                <li><a href="https://twitter.com/UpperStoryCo" target="_blank"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-twitter" viewBox="0 0 32 32"><path fill="#006892" d="M31.281 6.733q-1.304 1.924-3.13 3.26 0 .13.033.408t.033.408q0 2.543-.75 5.086t-2.282 4.858-3.635 4.108-5.053 2.869-6.341 1.076q-5.282 0-9.65-2.836.913.065 1.5.065 4.401 0 7.857-2.673-2.054-.033-3.668-1.255t-2.266-3.146q.554.13 1.206.13.88 0 1.663-.261-2.184-.456-3.619-2.184t-1.435-3.977v-.065q1.239.652 2.836.717-1.271-.848-2.021-2.233t-.75-2.983q0-1.63.815-3.195 2.38 2.967 5.754 4.678t7.319 1.907q-.228-.815-.228-1.434 0-2.608 1.858-4.45t4.532-1.842q1.304 0 2.51.522t2.054 1.467q2.152-.424 4.01-1.532-.685 2.217-2.771 3.488 1.989-.261 3.619-.978z"></path></svg></a></li>
+
+                                <li><a href="https://www.pinterest.com/turingtumble" target="_blank"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-pinterest" viewBox="0 0 32 32"><path fill="#006892" d="M27.52 9.6c-.64-5.76-6.4-8.32-12.8-7.68-4.48.64-9.6 4.48-9.6 10.24 0 3.2.64 5.76 3.84 6.4 1.28-2.56-.64-3.2-.64-4.48-1.28-7.04 8.32-12.16 13.44-7.04 3.2 3.84 1.28 14.08-4.48 13.44-5.12-1.28 2.56-9.6-1.92-11.52-3.2-1.28-5.12 4.48-3.84 7.04-1.28 4.48-3.2 8.96-1.92 15.36 2.56-1.92 3.84-5.76 4.48-9.6 1.28.64 1.92 1.92 3.84 1.92 6.4-.64 10.24-7.68 9.6-14.08z"></path></svg></a></li>
+
+                                <li><a href="https://www.youtube.com/channel/UCXn_01FyDa4gP48Yrvx4LuA/featured" target="_blank"><svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-youtube" viewBox="0 0 21 20"><path fill="#006892" d="M-.196 15.803q0 1.23.812 2.092t1.977.861h14.946q1.165 0 1.977-.861t.812-2.092V3.909q0-1.23-.82-2.116T17.539.907H2.593q-1.148 0-1.969.886t-.82 2.116v11.894zm7.465-2.149V6.058q0-.115.066-.18.049-.016.082-.016l.082.016 7.153 3.806q.066.066.066.164 0 .066-.066.131l-7.153 3.806q-.033.033-.066.033-.066 0-.098-.033-.066-.066-.066-.131z"></path></svg></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <!-- Newsletter Mailchimp Container -->
+                    <div class="col-md-12 col-lg-4 mb-5 footer-col">
+                        <span class="footer-heading tr" key="ft4">Newsletter</span>
+                        <p class="tr" key="fd4">Sign up to hear about the exciting new things we&#39;re working on</p>
+                        <form action="https://turingtumble.us16.list-manage.com/subscribe?u=cfc4841e76c0df1fc075f6e79&amp;id=38e102a989"
+                              method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <input type="email" value="" name="EMAIL" class="required-email tr" id="mce-EMAIL" placeholder="Enter your email" key="fin">
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" name="b_cfc4841e76c0df1fc075f6e79_5dabbfe924" tabindex="-1" value="">
+                            </div>
+                            <div class="clear" style="display: inline;">
+                                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-subscribe tr" key="fbtn">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+<!-- Optional JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>

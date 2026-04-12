@@ -6,6 +6,8 @@ age: 5+
 website: https://csunplugged.org/en/
 slug: cs-unplugged
 lang: en
+price: Free
+image: /assets/images/resources/cs-unplugged.png
 ---
 
 **CS Unplugged** is a collection of free teaching material that teaches Computer Science through engaging games and puzzles, without computers.

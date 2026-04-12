@@ -5,6 +5,8 @@ status: to review
 age: 4 ans +
 slug: floor-maze
 lang: fr
+price: Gratuit
+image: /assets/images/resources/floor-maze.jpg
 ---
 
 Le **Labyrinthe au sol** est une activité qui aide à comprendre la logique de navigation et les séquences d'instructions.

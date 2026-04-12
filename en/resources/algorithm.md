@@ -6,6 +6,8 @@ age: 6+
 website: https://en.wikipedia.org/wiki/Algorithm
 slug: algorithm
 lang: en
+price: Free
+image: /assets/images/resources/algorithm.png
 ---
 
 An algorithm is a set of step-by-step instructions to solve a problem or complete a task. Think of it like a recipe for a cake!

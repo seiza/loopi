@@ -6,7 +6,9 @@ age: 5 ans +
 website: https://codemooc.org/codyroby/
 slug: codyroby
 lang: fr
-other_resources:
+price: Gratuit
+image: /assets/images/resources/codyroby.png
+---other_resources:
   - name: Cartes à imprimer
     url: https://codemooc.org/codyroby/printable/
 ---

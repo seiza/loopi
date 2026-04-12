@@ -5,6 +5,8 @@ status: to review
 age: 7 ans +
 slug: variable
 lang: fr
+price: Gratuit
+image: /assets/images/resources/logic-concept.png
 ---
 
 Une **variable** est une façon de stocker des données qui peuvent être utilisées et modifiées tout au long d'un programme.

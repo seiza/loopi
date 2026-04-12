@@ -5,6 +5,8 @@ status: to review
 age: 6 ans +
 slug: keyboard-mazes
 lang: fr
+price: Gratuit
+image: /assets/images/loopy-bot.svg
 ---
 C'est une excellente idée pour familiariser vos enfants avec la coordination et l'espace avant de passer à l'écriture de scripts. Voici une sélection de sites gratuits, sans inscription, où l'on déplace un personnage avec les flèches du clavier (↑, ↓, ←, →).
 

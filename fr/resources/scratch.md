@@ -6,6 +6,8 @@ age: 8 ans +
 website: https://scratch.mit.edu/
 slug: scratch
 lang: fr
+price: Gratuit
+image: /assets/images/resources/scratch.png
 ---
 
 Développé par le MIT, Scratch utilise des blocs de couleur que l'on emboîte comme des LEGO.

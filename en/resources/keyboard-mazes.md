@@ -5,6 +5,8 @@ status: to review
 age: 6+
 slug: keyboard-mazes
 lang: en
+price: Free
+image: /assets/images/loopy-bot.svg
 ---
 Using keyboard arrows is an excellent way to familiarize your children with coordination and spatial awareness before moving on to script writing. Here is a selection of free websites, with no registration required, where you move a character using the keyboard arrows (↑, ↓, ←, →).
 

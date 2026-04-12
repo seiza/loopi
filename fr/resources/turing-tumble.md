@@ -6,6 +6,8 @@ age: 8 ans +
 website: https://www.turingtumble.com/
 slug: turing-tumble
 lang: fr
+price: ~30€
+image: /assets/images/resources/turing-tumble.jpg
 ---
 
 **Turing Tumble** est un ordinateur mécanique alimenté par des billes pour résoudre des énigmes logiques.

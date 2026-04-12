@@ -6,6 +6,8 @@ age: 5 ans +
 website: https://www.tynker.com/
 slug: tynker
 lang: fr
+price: Gratuit
+image: /assets/images/resources/tynker.png
 ---
 
 **Tynker** est une plateforme de programmation éducative conçue pour aider les enfants à apprendre le code à travers des jeux et des projets interactifs.

@@ -6,6 +6,8 @@ age: 8+
 website: https://scratch.mit.edu/
 slug: scratch
 lang: en
+price: Free
+image: /assets/images/resources/scratch.png
 ---
 
 Developed by MIT, Scratch uses color-coded blocks that snap together like LEGO.

@@ -5,6 +5,8 @@ status: to play
 age: 6 ans +
 slug: binary-bracelet
 lang: fr
+price: Gratuit
+image: /assets/images/resources/binary-bracelet.jpg
 ---
 
 Les **Bracelets Binaires** est une activité création de bracelets pour comprendre comment les ordinateurs stockent l'information.
@@ -24,7 +26,7 @@ Pour compter en binaire, il suffit de compter "normalement" (en décimal), comme
 - `3` en décimal, vaut `11` en binaire
 - `4` en décimal, vaut `100` en binaire
 
-![Exemple de bracelet binaire pour la lettre A](/assets/images/binary-bracelet-example.svg)
+![Photo de Bracelet Binaire](/assets/images/resources/binary-bracelet.jpg)
 
 *Exemple : Un bracelet pour la lettre 'A' (01000001) avec une perle en bois pour marquer le début, puis Blanc=0 et Noir=1.*
 

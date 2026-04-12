@@ -5,6 +5,8 @@ status: to review
 age: 7 ans +
 slug: conditional
 lang: fr
+price: Gratuit
+image: /assets/images/resources/logic-concept.png
 ---
 
 Une **conditionnelle** est une structure logique de base qui dit à un programme d'effectuer différentes actions selon qu'une condition est vraie ou fausse.

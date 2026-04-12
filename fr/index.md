@@ -38,11 +38,23 @@ lang: fr
         {% assign resources = site.html_pages | where: "lang", "fr" | where: "category", cat %}
         {% for resource in resources %}
           <div class="resource-card">
+            <a href="{{ resource.url | relative_url }}">
+              <div class="resource-card-image" style="text-align: center; margin-bottom: 15px;">
+                {% if resource.image %}
+                  <img src="{{ resource.image | relative_url }}" alt="{{ resource.title }}" style="max-height: 200px; max-width: 100%; height: auto;">
+                {% else %}
+                  <img src="{{ '/assets/images/loopy-bot.svg' | relative_url }}" alt="{{ resource.title }}" style="max-height: 200px; max-width: 100%; height: auto; opacity: 0.5;">
+                {% endif %}
+              </div>
+            </a>
             <h4><a href="{{ resource.url | relative_url }}">{{ resource.title }}</a></h4>
             <p>
               <small class="status-tag">{{ resource.status }}</small>
               {% if resource.age %}
                 <small class="status-tag">{{ resource.age }}</small>
+              {% endif %}
+              {% if resource.price %}
+                <small class="status-tag">{{ resource.price }}</small>
               {% endif %}
             </p>
           </div>

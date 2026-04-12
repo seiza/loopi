@@ -6,6 +6,8 @@ age: 8+
 website: https://www.cocktailgames.com/produit/on-the-dot/
 slug: on-the-dot
 lang: en
+price: ~30€
+image: /assets/images/resources/on-the-dot.png
 ---
 
 **On the Dot** is a pattern-matching game that challenges spatial logic and observation.

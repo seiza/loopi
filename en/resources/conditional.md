@@ -5,6 +5,8 @@ status: to review
 age: 7+
 slug: conditional
 lang: en
+price: Free
+image: /assets/images/resources/logic-concept.png
 ---
 
 A **conditional** is a basic logic structure that tells a program to perform different actions depending on whether a condition is true or false.

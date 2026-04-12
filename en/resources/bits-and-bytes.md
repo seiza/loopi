@@ -6,6 +6,8 @@ age: 7+
 website: https://www.bitsandbytes.cards/
 slug: bits-and-bytes
 lang: en
+price: ~30€
+image: /assets/images/resources/bits-and-bytes.png
 ---
 
 **Bits & Bytes** is a card game designed to teach children the basics of computer coding and algorithmic thinking.

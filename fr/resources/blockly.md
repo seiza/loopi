@@ -6,6 +6,8 @@ age: 8 ans +
 website: https://developers.google.com/blockly
 slug: blockly
 lang: fr
+price: Gratuit
+image: /assets/images/resources/blockly.png
 ---
 
 **Blockly** est une bibliothèque logicielle qui permet d'ajouter un éditeur de code visuel aux applications web et mobiles.

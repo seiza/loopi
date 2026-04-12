@@ -6,6 +6,8 @@ age: 3-7 ans
 website: https://www.terrapinlogo.com/beebot.html
 slug: bee-bot
 lang: fr
+price: ~100€
+image: /assets/images/resources/bee-bot.png
 ---
 
 Le **Bee-Bot** est un robot de sol programmable, parfait pour introduire le contrôle, le langage directionnel et la programmation aux jeunes enfants.

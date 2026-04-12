@@ -6,6 +6,8 @@ age: 8+
 website: https://www.turingtumble.com/
 slug: turing-tumble
 lang: en
+price: ~30€
+image: /assets/images/resources/turing-tumble.jpg
 ---
 
 **Turing Tumble** is a mechanical computer powered by marbles to solve logic puzzles.

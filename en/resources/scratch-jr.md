@@ -6,7 +6,9 @@ age: 5-7
 website: https://www.scratchjr.org/
 slug: scratch-jr
 lang: en
-other_resources:
+price: Free
+image: /assets/images/resources/scratch-jr.png
+---other_resources:
   - name: Guide for Parents
     url: https://www.scratchjr.org/teach/parents
 ---

@@ -6,6 +6,8 @@ age: 4+
 website: https://code.org/
 slug: code-org
 lang: en
+price: Free
+image: /assets/images/resources/code-org.png
 ---
 
 **Code.org** is a nonprofit dedicated to expanding access to computer science, notably through the global "Hour of Code" event.

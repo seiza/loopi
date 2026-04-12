@@ -6,7 +6,9 @@ age: 4-8
 website: https://www.thinkfun.com/products/robot-turtles/
 slug: robot-turtles
 lang: en
-other_resources:
+price: ~30€
+image: /assets/images/resources/robot-turtles.png
+---other_resources:
   - name: Learn to Play
     url: https://www.thinkfun.com/products/robot-turtles/how-to-play/
 ---

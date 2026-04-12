@@ -5,6 +5,8 @@ status: to review
 age: 5+
 slug: human-robot
 lang: en
+price: Free
+image: /assets/images/loopy-bot.svg
 ---
 
 Coding is above all a way of thinking. These games help understand fundamental concepts without straining the eyes.

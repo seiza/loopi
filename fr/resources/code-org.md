@@ -6,6 +6,8 @@ age: 4 ans +
 website: https://code.org/
 slug: code-org
 lang: fr
+price: Gratuit
+image: /assets/images/resources/code-org.png
 ---
 
 **Code.org** est une organisation à but non lucratif dédiée à l'expansion de l'accès à l'informatique, notamment à travers l'événement mondial "Une Heure de Code".

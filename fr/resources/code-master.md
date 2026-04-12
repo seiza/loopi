@@ -6,6 +6,8 @@ age: 8 ans +
 website: https://www.thinkfun.com/products/code-master/
 slug: code-master
 lang: fr
+price: ~30€
+image: /assets/images/resources/code-master.png
 ---
 
 **Code Master** est un jeu de logique solo ou coopératif qui enseigne les concepts fondamentaux de la programmation sans ordinateur.

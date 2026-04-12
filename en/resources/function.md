@@ -5,6 +5,8 @@ status: to review
 age: 8+
 slug: function
 lang: en
+price: Free
+image: /assets/images/resources/logic-concept.png
 ---
 
 A **function** is a reusable block of code that performs a specific task.

@@ -5,6 +5,8 @@ status: to review
 age: 4+
 slug: floor-maze
 lang: en
+price: Free
+image: /assets/images/resources/floor-maze.jpg
 ---
 
 The **Floor Maze** is an activity that helps understand navigation logic and instruction sequences.
