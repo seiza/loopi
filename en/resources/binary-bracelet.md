@@ -6,7 +6,7 @@ age: 6+
 slug: binary-bracelet
 lang: en
 price: Free
-image: /assets/images/resources/binary-bracelet.jpg
+image: /assets/images/resources/binary-bracelet-example.svg
 ---
 
 The **Binary Bracelets** is a bracelet-making activity to understand how computers store information.
@@ -25,7 +25,7 @@ To count in binary, you just have to count "normally" (in decimal), as we learne
 - `3` in decimal is '11' in binary
 - `4` in decimal is '100' in binary
 
-![Binary Bracelet Photo](/assets/images/resources/binary-bracelet.jpg)
+![Binary Bracelet Photo](/assets/images/resources/binary-bracelet-example.svg)
 
 *Example: A bracelet for the letter 'A' (01000001) with a wooden bead for the start, then White=0 and Black=1.*
 
