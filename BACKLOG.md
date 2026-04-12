@@ -2,8 +2,11 @@
 
 This file contains candidates for future resource pages on Loopi.
 
-## Débranché (sans ordinateur)
+## Robot
 - [x] **Bee-Bot**: A programmable floor robot perfect for introducing control, directional language, and programming to young children.
+- [x] **Thymio**: An open-source educational robot that can be programmed with blocks or text.
+
+## Débranché (sans ordinateur)
 - [x] **CS Unplugged**: A collection of free teaching material that teaches Computer Science through engaging games and puzzles.
 - [x] **Hello Ruby**: A book series and website that makes coding and logic accessible through stories and activities.
 - [x] **Graph Paper Programming**: Learn how to guide a "robot" (your friend!) to draw a picture on graph paper using only a small set of symbols.

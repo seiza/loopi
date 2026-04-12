@@ -1,6 +1,6 @@
 ---
 title: Bee-Bot
-category: Débranché (sans ordinateur)
+category: Robot
 status: to review
 age: 3-7
 website: https://www.terrapinlogo.com/beebot.html

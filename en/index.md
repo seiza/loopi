@@ -23,7 +23,7 @@ lang: en
 <div class="category-section">
   <h2>Categories</h2>
 
-  {% assign categories = "Débranché (sans ordinateur),Numérique (avec écran),Jeux de société,Dictionnaire (écosystème)" | split: "," %}
+  {% assign categories = "Débranché (sans ordinateur),Numérique (avec écran),Robot,Jeux de société,Dictionnaire (écosystème)" | split: "," %}
 
   {% for cat in categories %}
     {% case cat %}
@@ -31,6 +31,7 @@ lang: en
       {% when "Numérique (avec écran)" %}{% assign slug = "digital" %}
       {% when "Jeux de société" %}{% assign slug = "board-games" %}
       {% when "Dictionnaire (écosystème)" %}{% assign slug = "dictionary" %}
+      {% when "Robot" %}{% assign slug = "robot" %}
     {% endcase %}
     <section>
       <h3><a href="{{ site.baseurl }}/en/categories/{{ slug }}.html">{{ cat }}</a></h3>

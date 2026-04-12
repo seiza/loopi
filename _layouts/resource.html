@@ -44,6 +44,7 @@ layout: default
           {% when "Numérique (avec écran)" %}{% assign slug = "digital" %}
           {% when "Jeux de société" %}{% assign slug = "board-games" %}
           {% when "Dictionnaire (écosystème)" %}{% assign slug = "dictionary" %}
+          {% when "Robot" %}{% assign slug = "robot" %}
         {% endcase %}
         {% if page.lang == "en" %}
           <strong>Category:</strong> <a href="{{ '/en/categories/' | append: slug | append: '.html' | relative_url }}">{{ page.category }}</a>
