@@ -13,6 +13,16 @@ layout: default
   </p>
 </header>
 
+<div class="view-controls">
+  {% if page.lang == "en" %}
+    <button class="btn-tile active" onclick="setView('tile')">Tiles 🟦</button>
+    <button class="btn-table" onclick="setView('table')">Table 📋</button>
+  {% else %}
+    <button class="btn-tile active" onclick="setView('tile')">Tuiles 🟦</button>
+    <button class="btn-table" onclick="setView('table')">Tableau 📋</button>
+  {% endif %}
+</div>
+
 <div class="resources-grid">
   {% assign resources = site.html_pages | where: "lang", page.lang | where: "category", page.category_name %}
   {% for resource in resources %}
@@ -20,7 +30,7 @@ layout: default
       <a href="{{ resource.url | relative_url }}">
         <div class="resource-card-image" style="text-align: center; margin-bottom: 15px;">
           {% if resource.image %}
-            <img src="{{ resource.image | relative_url }}" alt="{{ resource.title }}" style="max-height: 200px; max-width: 100%; height: auto;">
+            <img src="{{ resource.image | relative_url }}" alt="{{ resource.title }}" style="max-height: 200px; max-width: 100%; height: auto;" onerror="handleImageError(this)">
           {% else %}
             <img src="{{ '/assets/images/loopy-bot.svg' | relative_url }}" alt="{{ resource.title }}" style="max-height: 200px; max-width: 100%; height: auto; opacity: 0.5;">
           {% endif %}

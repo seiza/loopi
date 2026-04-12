@@ -23,6 +23,11 @@ lang: fr
 <div class="category-section">
   <h2>Catégories</h2>
 
+  <div class="view-controls">
+    <button class="btn-tile active" onclick="setView('tile')">Tuiles 🟦</button>
+    <button class="btn-table" onclick="setView('table')">Tableau 📋</button>
+  </div>
+
   {% assign categories = "Débranché (sans ordinateur),Numérique (avec écran),Robot,Jeux de société,Dictionnaire (écosystème)" | split: "," %}
 
   {% for cat in categories %}
@@ -42,7 +47,7 @@ lang: fr
             <a href="{{ resource.url | relative_url }}">
               <div class="resource-card-image" style="text-align: center; margin-bottom: 15px;">
                 {% if resource.image %}
-                  <img src="{{ resource.image | relative_url }}" alt="{{ resource.title }}" style="max-height: 200px; max-width: 100%; height: auto;">
+                  <img src="{{ resource.image | relative_url }}" alt="{{ resource.title }}" style="max-height: 200px; max-width: 100%; height: auto;" onerror="handleImageError(this)">
                 {% else %}
                   <img src="{{ '/assets/images/loopy-bot.svg' | relative_url }}" alt="{{ resource.title }}" style="max-height: 200px; max-width: 100%; height: auto; opacity: 0.5;">
                 {% endif %}
