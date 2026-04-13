@@ -5,11 +5,13 @@ This file contains candidates for future resource pages on Loopi.
 ## Robot
 - [x] **Bee-Bot**: A programmable floor robot perfect for introducing control, directional language, and programming to young children.
 - [x] **Thymio**: An open-source educational robot that can be programmed with blocks or text.
+- [x] **Ozobot**: A tiny robot that follows color-coded paths and lines.
 
 ## Débranché (sans ordinateur)
 - [x] **CS Unplugged**: A collection of free teaching material that teaches Computer Science through engaging games and puzzles.
 - [x] **Hello Ruby**: A book series and website that makes coding and logic accessible through stories and activities.
 - [x] **Graph Paper Programming**: Learn how to guide a "robot" (your friend!) to draw a picture on graph paper using only a small set of symbols.
+- [x] **Magic Binary Cards**: Count the dots to understand binary representation.
 
 ## Numérique (avec écran)
 - [x] **Tynker**: An educational programming platform designed to help children learn to code through games.
@@ -18,6 +20,7 @@ This file contains candidates for future resource pages on Loopi.
 - [x] **Lightbot**: An educational game that uses logic puzzles fundamental to coding, like loops and procedures.
 - [x] **Game Builder Garage (L'Atelier du Jeu Vidéo)**: A Nintendo Switch game that teaches programming logic by building games with "Nodons".
 - [x] **Dreams**: A PlayStation game developed by Media Molecule that allows players to create and share their own games, music, and art.
+- [x] **CodeMonkey**: A fun platform to learn coding by helping a monkey get its bananas.
 - [x] **Human Resource Machine**: A puzzle game where you use a simple assembly-like language to automate a corporate office worker.
 - [x] **7 Billion Humans**: The sequel to Human Resource Machine, adding parallelism and synchronization concepts.
 - [x] **Shenzhen I/O**: A programming puzzle game where you build circuits and write assembly code for various electronic components.
