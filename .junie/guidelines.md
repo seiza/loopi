@@ -1,6 +1,6 @@
 # Loopi Project Guidelines
 
-These guidelines document the conventions followed for the Loopi project.
+These guidelines document the conventions followed for the Loopi project to add a new resource or category.
 
 ## 1. Bilingual Support
 - Every resource and category must have both an English (`en/`) and a French (`fr/`) version.
