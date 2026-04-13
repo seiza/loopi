@@ -6,6 +6,8 @@ This file contains candidates for future resource pages on Loopi.
 - [x] **Bee-Bot**: A programmable floor robot perfect for introducing control, directional language, and programming to young children.
 - [x] **Thymio**: An open-source educational robot that can be programmed with blocks or text.
 - [x] **Ozobot**: A tiny robot that follows color-coded paths and lines.
+- [x] **Cubetto**: A wooden robot designed to teach children the basics of computer programming without screens.
+- [x] **ImagiCharm**: A programmable smart accessory that children can wear and personalize with code.
 
 ## Débranché (sans ordinateur)
 - [x] **CS Unplugged**: A collection of free teaching material that teaches Computer Science through engaging games and puzzles.
@@ -39,6 +41,8 @@ This file contains candidates for future resource pages on Loopi.
 - [x] **The Farmer Was Replaced**: A farming automation game using a Python-like scripting language.
 - [x] **WarriorJS**: A tower-climbing game where you program your warrior's AI in JavaScript.
 - [x] **Untrusted**: A JavaScript adventure game where you modify the source code to solve levels.
+- [x] **Code Monster**: An online platform that teaches JavaScript to children through fun and interactive challenges.
+- [x] **Bitsbox**: A monthly subscription box that teaches children how to build their own apps.
 
 ## Jeux de société
 - [x] **Turing Tumble**: A mechanical computer powered by marbles to solve logic puzzles.
