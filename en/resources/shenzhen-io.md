@@ -5,6 +5,7 @@ status: to review
 age: 12+
 website: https://www.zachtronics.com/shenzhen-io/
 slug: shenzhen-io
+github_issue: 46
 lang: en
 price: ~15€
 image: /assets/images/resources/shenzhen-io.jpg

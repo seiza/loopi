@@ -4,6 +4,7 @@ category: Dictionnaire (écosystème)
 status: to review
 age: 7 ans +
 slug: variable
+github_issue: 53
 lang: fr
 price: Gratuit
 image: /assets/images/resources/logic-concept.png

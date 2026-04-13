@@ -5,6 +5,7 @@ status: "to review"
 age: "7+"
 website: "https://csunplugged.org/en/topics/binary-numbers/unit-plan/count-the-dots-binary-numbers-junior/"
 slug: "magic-binary-cards"
+github_issue: 36
 lang: "fr"
 price: "Gratuit"
 image: "/assets/images/resources/magic-binary-cards.jpg"

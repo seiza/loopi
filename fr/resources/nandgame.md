@@ -5,6 +5,7 @@ status: to review
 age: 12 ans +
 website: https://nandgame.com/
 slug: nandgame
+github_issue: 39
 lang: fr
 price: Gratuit
 ---

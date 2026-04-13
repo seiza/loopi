@@ -5,6 +5,7 @@ status: to review
 age: 6+
 website: https://www.thymio.org/
 slug: thymio
+github_issue: 49
 lang: en
 price: ~200€
 image: /assets/images/resources/thymio.jpg

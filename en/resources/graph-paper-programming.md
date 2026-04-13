@@ -5,6 +5,7 @@ status: to review
 age: 6+
 website: https://code.org/curriculum/unplugged
 slug: graph-paper-programming
+github_issue: 27
 lang: en
 price: Free
 image: /assets/images/resources/graph-paper-programming.jpg

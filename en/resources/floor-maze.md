@@ -4,6 +4,7 @@ category: Débranché (sans ordinateur)
 status: to review
 age: 4+
 slug: floor-maze
+github_issue: 24
 lang: en
 price: Free
 image: /assets/images/resources/floor-maze.jpg

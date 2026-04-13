@@ -5,6 +5,7 @@ status: to review
 age: 8 ans +
 website: https://developers.google.com/blockly
 slug: blockly
+github_issue: 13
 lang: fr
 price: Gratuit
 image: /assets/images/resources/blockly.png

@@ -5,6 +5,7 @@ status: "to review"
 age: "6+"
 website: "https://ozobot.com/"
 slug: "ozobot"
+github_issue: 3
 lang: "fr"
 price: "~100€"
 image: "/assets/images/resources/ozobot.jpg"

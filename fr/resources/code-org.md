@@ -5,6 +5,7 @@ status: to review
 age: 4 ans +
 website: https://code.org/
 slug: code-org
+github_issue: 6
 lang: fr
 price: Gratuit
 image: /assets/images/resources/code-org.png

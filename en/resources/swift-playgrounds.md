@@ -5,6 +5,7 @@ status: to review
 age: 10+
 website: https://www.apple.com/swift/playgrounds/
 slug: swift-playgrounds
+github_issue: 47
 lang: en
 price: Free
 image: /assets/images/resources/swift-playgrounds.jpg

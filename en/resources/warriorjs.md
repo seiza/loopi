@@ -5,6 +5,7 @@ status: to review
 age: 12+
 website: https://warriorjs.com/
 slug: warriorjs
+github_issue: 54
 lang: en
 price: Free
 image: /assets/images/resources/warriorjs.png

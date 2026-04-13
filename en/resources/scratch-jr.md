@@ -5,6 +5,7 @@ status: to review
 age: 5-7
 website: https://www.scratchjr.org/
 slug: scratch-jr
+github_issue: 43
 lang: en
 price: Free
 image: /assets/images/resources/scratch-jr.png

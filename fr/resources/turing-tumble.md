@@ -5,6 +5,7 @@ status: to review
 age: 8 ans +
 website: https://www.turingtumble.com/
 slug: turing-tumble
+github_issue: 7
 lang: fr
 price: ~30€
 image: /assets/images/resources/turing-tumble.jpg

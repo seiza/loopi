@@ -5,6 +5,7 @@ status: to review
 age: 5+
 website: https://codemooc.org/codyroby/
 slug: codyroby
+github_issue: 18
 lang: en
 price: Free
 image: /assets/images/resources/codyroby.png

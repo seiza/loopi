@@ -5,6 +5,7 @@ status: to review
 age: 10 ans +
 website: https://tomorrowcorporation.com/humanresourcemachine
 slug: human-resource-machine
+github_issue: 29
 lang: fr
 price: ~15€
 image: /assets/images/resources/human-resource-machine.jpg

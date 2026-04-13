@@ -5,6 +5,7 @@ status: to review
 age: 7+
 website: https://www.nintendo.com/store/products/game-builder-garage-switch/
 slug: game-builder-garage
+github_issue: 26
 lang: en
 price: ~30€
 image: /assets/images/resources/game-builder-garage.jpg

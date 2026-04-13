@@ -4,6 +4,7 @@ category: Débranché (sans ordinateur)
 status: to play
 age: 6+
 slug: binary-bracelet
+github_issue: 10
 lang: en
 price: Free
 image: /assets/images/resources/binary-bracelet-example.svg

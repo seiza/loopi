@@ -5,6 +5,7 @@ status: to review
 age: 9 ans +
 website: https://codecombat.com/
 slug: codecombat
+github_issue: 15
 lang: fr
 price: Gratuit / Premium
 image: /assets/images/resources/codecombat.png

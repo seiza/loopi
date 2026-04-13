@@ -4,6 +4,7 @@ category: Débranché (sans ordinateur)
 status: to review
 age: 5 ans +
 slug: human-robot
+github_issue: 30
 lang: fr
 price: Gratuit
 image: /assets/images/loopy-bot.svg

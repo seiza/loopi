@@ -5,6 +5,7 @@ status: to review
 age: 12+
 website: https://store.steampowered.com/app/310890/Else_HeartBreak/
 slug: else-heart-break
+github_issue: 23
 lang: en
 price: ~25€
 image: /assets/images/resources/else-heart-break.jpg

@@ -5,6 +5,7 @@ status: "to review"
 age: "5-14"
 website: "https://www.codemonkey.com/"
 slug: "codemonkey"
+github_issue: 16
 lang: "en"
 price: "Subscription"
 image: "/assets/images/resources/codemonkey.jpg"

@@ -4,6 +4,7 @@ category: Numérique (avec écran)
 status: to review
 age: 6+
 slug: keyboard-mazes
+github_issue: 32
 lang: en
 price: Free
 image: /assets/images/loopy-bot.svg

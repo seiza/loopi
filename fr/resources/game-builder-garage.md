@@ -5,6 +5,7 @@ status: to review
 age: 7 ans +
 website: https://www.nintendo.fr/Jeux/Jeux-Nintendo-Switch/L-Atelier-du-Jeu-Video-1968114.html
 slug: game-builder-garage
+github_issue: 26
 lang: fr
 price: ~30€
 image: /assets/images/resources/game-builder-garage.jpg

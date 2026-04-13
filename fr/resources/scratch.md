@@ -5,6 +5,7 @@ status: to review
 age: 8 ans +
 website: https://scratch.mit.edu/
 slug: scratch
+github_issue: 44
 lang: fr
 price: Gratuit
 image: /assets/images/resources/scratch.png

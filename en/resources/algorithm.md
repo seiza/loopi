@@ -5,6 +5,7 @@ status: to review
 age: 6+
 website: https://en.wikipedia.org/wiki/Algorithm
 slug: algorithm
+github_issue: 8
 lang: en
 price: Free
 image: /assets/images/resources/algorithm.png

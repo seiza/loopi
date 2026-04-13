@@ -5,6 +5,7 @@ status: to review
 age: 10+
 website: https://tomorrowcorporation.com/7billionhumans
 slug: 7-billion-humans
+github_issue: 9
 lang: en
 price: ~15€
 image: /assets/images/resources/7-billion-humans.jpg

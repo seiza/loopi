@@ -5,6 +5,7 @@ status: to review
 age: 5+
 website: https://csunplugged.org/en/
 slug: cs-unplugged
+github_issue: 5
 lang: en
 price: Free
 image: /assets/images/resources/cs-unplugged.png

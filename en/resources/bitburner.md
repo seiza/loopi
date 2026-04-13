@@ -5,6 +5,7 @@ status: to review
 age: 12+
 website: https://store.steampowered.com/app/1812820/Bitburner/
 slug: bitburner
+github_issue: 11
 lang: en
 price: Free
 image: /assets/images/resources/bitburner.jpg

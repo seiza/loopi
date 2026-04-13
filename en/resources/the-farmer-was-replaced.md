@@ -5,6 +5,7 @@ status: to review
 age: 10+
 website: https://store.steampowered.com/app/2060160/The_Farmer_Was_Replaced/
 slug: the-farmer-was-replaced
+github_issue: 48
 lang: en
 price: Free
 image: /assets/images/resources/the-farmer-was-replaced.jpg

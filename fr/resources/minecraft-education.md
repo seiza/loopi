@@ -5,6 +5,7 @@ status: to review
 age: 7 ans +
 website: https://education.minecraft.net/
 slug: minecraft-education
+github_issue: 38
 lang: fr
 price: Gratuit
 image: /assets/images/loopy-bot.svg

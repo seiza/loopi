@@ -5,6 +5,7 @@ status: to review
 age: 5 ans +
 website: https://lightbot.com/
 slug: lightbot
+github_issue: 34
 lang: fr
 price: Gratuit
 image: /assets/images/resources/lightbot.png

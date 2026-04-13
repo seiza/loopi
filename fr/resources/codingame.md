@@ -5,6 +5,7 @@ status: to review
 age: 12 ans +
 website: https://www.codingame.com/
 slug: codingame
+github_issue: 17
 lang: fr
 price: Gratuit
 image: /assets/images/resources/codingame.png

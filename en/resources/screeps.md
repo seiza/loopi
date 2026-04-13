@@ -5,6 +5,7 @@ status: to review
 age: 14+
 website: https://screeps.com/
 slug: screeps
+github_issue: 45
 lang: en
 price: Subscription / One-time
 image: /assets/images/resources/screeps.png

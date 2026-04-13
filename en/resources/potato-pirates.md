@@ -5,6 +5,7 @@ status: to review
 age: 7+
 website: https://potatopirates.game/
 slug: potato-pirates
+github_issue: 41
 lang: en
 price: ~30€
 image: /assets/images/resources/potato-pirates.jpg

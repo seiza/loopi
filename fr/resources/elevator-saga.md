@@ -5,6 +5,7 @@ status: to review
 age: 12 ans +
 website: https://play.elevatorsaga.com/
 slug: elevator-saga
+github_issue: 22
 lang: fr
 price: Gratuit
 image: /assets/images/resources/elevator-saga.png

@@ -5,6 +5,7 @@ status: to review
 age: 12+
 website: https://store.steampowered.com/app/1511780/Last_Call_BBS/
 slug: last-call-bbs
+github_issue: 33
 lang: en
 price: ~20€
 image: /assets/images/resources/last-call-bbs.jpg

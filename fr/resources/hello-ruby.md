@@ -5,6 +5,7 @@ status: to review
 age: 4-10 ans
 website: https://www.helloruby.com/fr
 slug: hello-ruby
+github_issue: 28
 lang: fr
 price: ~15€
 image: /assets/images/resources/hello-ruby.png

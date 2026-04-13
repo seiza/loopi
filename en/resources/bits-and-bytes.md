@@ -5,6 +5,7 @@ status: to review
 age: 7+
 website: https://www.bitsandbytes.cards/
 slug: bits-and-bytes
+github_issue: 12
 lang: en
 price: ~30€
 image: /assets/images/resources/bits-and-bytes.png

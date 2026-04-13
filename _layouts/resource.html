@@ -68,6 +68,16 @@ layout: default
       </p>
     {% endif %}
 
+    {% if page.github_issue %}
+      <p>
+        {% if page.lang == "en" %}
+          💬 <a href="https://github.com/seiza/loopi/issues/{{ page.github_issue }}" target="_blank">Discuss this resource on GitHub</a>
+        {% else %}
+          💬 <a href="https://github.com/seiza/loopi/issues/{{ page.github_issue }}" target="_blank">Discuter de cette ressource sur GitHub</a>
+        {% endif %}
+      </p>
+    {% endif %}
+
     {% if page.other_resources %}
       {% if page.lang == "en" %}
         <h3>Other Resources</h3>

@@ -5,6 +5,7 @@ status: to review
 age: 12 ans +
 website: https://store.steampowered.com/app/2216770/JOY_OF_PROGRAMMING__Software_Engineering_Simulator/
 slug: joy-of-programming
+github_issue: 31
 lang: fr
 price: ~20€
 image: /assets/images/resources/joy-of-programming.jpg

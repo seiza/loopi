@@ -5,6 +5,7 @@ status: to review
 age: 12 ans +
 website: https://untrustedgame.com/
 slug: untrusted
+github_issue: 52
 lang: fr
 price: Gratuit
 image: /assets/images/resources/untrusted.png

@@ -5,6 +5,7 @@ status: to review
 age: 3-7
 website: https://www.terrapinlogo.com/beebot.html
 slug: bee-bot
+github_issue: 4
 lang: en
 price: ~100€
 image: /assets/images/resources/bee-bot.png

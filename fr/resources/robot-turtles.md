@@ -5,6 +5,7 @@ status: to review
 age: 4-8 ans
 website: https://www.thinkfun.com/products/robot-turtles/
 slug: robot-turtles
+github_issue: 42
 lang: fr
 price: ~30€
 image: /assets/images/resources/robot-turtles.png

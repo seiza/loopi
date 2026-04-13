@@ -5,6 +5,7 @@ status: to review
 age: 8+
 website: https://www.thinkfun.com/products/code-master/
 slug: code-master
+github_issue: 14
 lang: en
 price: ~30€
 image: /assets/images/resources/code-master.png

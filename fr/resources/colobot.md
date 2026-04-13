@@ -5,6 +5,7 @@ status: to review
 age: 10 ans +
 website: https://colobot.info/
 slug: colobot
+github_issue: 19
 lang: fr
 price: Gratuit
 image: /assets/images/resources/colobot.png

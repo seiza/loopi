@@ -5,6 +5,7 @@ status: to review
 age: 5+
 website: https://www.tynker.com/
 slug: tynker
+github_issue: 51
 lang: en
 price: Free
 image: /assets/images/resources/tynker.png

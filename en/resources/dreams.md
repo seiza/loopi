@@ -5,6 +5,7 @@ status: to play
 age: 10+
 website: https://www.playstation.com/en-us/games/dreams/
 slug: dreams
+github_issue: 21
 lang: en
 price: ~20€
 image: /assets/images/resources/dreams.jpg

@@ -5,6 +5,7 @@ status: to review
 age: 8 ans +
 website: https://www.cocktailgames.com/produit/on-the-dot/
 slug: on-the-dot
+github_issue: 40
 lang: fr
 price: ~30€
 image: /assets/images/resources/on-the-dot.png

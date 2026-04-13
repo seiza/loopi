@@ -5,6 +5,7 @@ status: to review
 age: 12+
 website: https://store.steampowered.com/app/576030/MHRD/
 slug: mhrd
+github_issue: 37
 lang: en
 price: ~10€
 image: /assets/images/resources/mhrd.jpg
