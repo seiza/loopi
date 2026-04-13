@@ -23,6 +23,7 @@ These guidelines document the conventions followed for the Loopi project to add 
   - `lang`: "en" or "fr".
   - `price`: Estimated price (e.g., "Free", "Gratuit", "~20€").
   - `image`: Path to a real image (screenshot or photo) in `/assets/images/resources/slug.extension`.
+  - `github_issue`: The ID (number) of the associated GitHub issue.
 
 ## 3. Images and Placeholders
 - Store images in `assets/images/resources/`.
@@ -46,3 +47,11 @@ These guidelines document the conventions followed for the Loopi project to add 
 ## 6. Backlog
 - New resource ideas or tasks should be tracked in `BACKLOG.md`.
 - Mark items as completed with `[x]` once their English and French pages are created.
+
+## 7. Github Issue
+- Create a new issue in the [Loopi repository](https://github.com/seiza/loopi) for each new resource or category.
+- Concat the title in English and French with a slash (`/`) for the issue title, or only the English title if the French title is the same.
+- Add the tag `Activity`.
+- Add the tag of the category (e.g., `Robot`, `Digital`, `Unplugged`).
+- Add in the issue body the link to the English and French pages on the website.
+- Add the issue number to the `github_issue` front-matter field of both Markdown files. This automatically generates a link to the discussion section.
