@@ -8,6 +8,9 @@ This file contains candidates for future resource pages on Loopi.
 - [x] **Ozobot**: A tiny robot that follows color-coded paths and lines.
 - [x] **Cubetto**: A wooden robot designed to teach children the basics of computer programming without screens.
 - [x] **ImagiCharm**: A programmable smart accessory that children can wear and personalize with code.
+- [x] **Micro:bit**: A pocket-sized computer that introduces you to how software and hardware work together.
+- [x] **LEGO Spike Prime**: A powerful STEAM learning tool for students that combines LEGO bricks with a programmable hub and sensors.
+- [x] **Sphero**: A spherical robot that can be controlled and programmed via an app to learn coding and robotics.
 
 ## Débranché (sans ordinateur)
 - [x] **CS Unplugged**: A collection of free teaching material that teaches Computer Science through engaging games and puzzles.

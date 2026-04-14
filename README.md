@@ -51,3 +51,8 @@ GitHub Pages can automatically build and deploy your project from your `main` br
 - `en/` and `fr/`: Language-specific homepages and resources.
 - `BACKLOG.md`: Future resources to be added.
 - `_config.yml`: Main project configuration.
+
+
+## Instructions Guidelines
+
+- https://blog.jetbrains.com/idea/2025/05/coding-guidelines-for-your-ai-agents/
